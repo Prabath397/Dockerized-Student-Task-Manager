@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef3f8;
+    margin: 0;
+    color: #1f2937;
+}
+
+.container {
+    width: 380px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.dashboard {
+    width: 900px;
+    margin: 40px auto;
+}
+
+h2, h3 {
+    color: #0f172a;
+}
+
+.subtitle {
+    color: #2563eb;
+    font-size: 14px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 90px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.card, .task-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.task-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout {
+    background: #dc2626;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
